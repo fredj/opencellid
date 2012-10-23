@@ -7,6 +7,7 @@ from sqlalchemy.schema import Table
 Base = declarative_base()
 engine = create_engine('sqlite:///cells.sqlite')
 
+
 class Cell(Base):
     __table__ = Table('cell', Base.metadata, autoload=True, autoload_with=engine)
 
@@ -16,6 +17,7 @@ class Cell(Base):
 
 app = Bottle()
 app.install(SQLAlchemyPlugin(engine))
+
 
 @app.get('/')
 def get(db):
