@@ -28,10 +28,6 @@ See `bottle.py --help` for more options (port, server, ...).
 
 The outout is a JSON string containing the latitude, longitude and the range (accuracy radius in meters)
 
-## Known issues
-
-slow: database indexes should be created, a cache in front of the database sould be added.
-
 ## License
 Copyright (c) 2012 Frédéric Junod <frederic.junod@gmail.com>
 

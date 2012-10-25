@@ -12,3 +12,4 @@ CREATE TABLE cell (
     updated_at TEXT,
     zero INTEGER
 );
+CREATE INDEX cell_idx ON cell(mcc, mnc, lac, cellid);
