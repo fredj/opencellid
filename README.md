@@ -9,7 +9,7 @@ Download and create an sqlite database from the csv data:
     cat schema.sql | sqlite3 cells.sqlite
     cat import.sql | sqlite3 cells.sqlite
 
-Create the virtual environemnt
+Create the virtual environment
 
     virtualenv .
     . bin/activate
