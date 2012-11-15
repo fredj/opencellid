@@ -18,7 +18,7 @@ Create the virtual environment
 ## Running
 Start the server
 
-    bottle.py opencellid:app
+    bottle.py opencellid
 
 See `bottle.py --help` for more options (port, server, ...).
 
